@@ -1,0 +1,433 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #000000;
+    color: #fff;
+    width: auto;
+    font-family: 'Poppins', sans-serif;
+}
+.body-side-margin{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(imgs/header.jpg);
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    height: 200px;
+}
+.logo{
+    padding-top: 30px;
+    
+}
+.logo img{
+    width: 50px;
+    height: 60px;
+}
+.logo h3{
+    font-size: 15px;
+}
+.logo p{
+    font-size: 12px;
+}
+.nav-menu{
+   position: absolute;
+   right: 100px;
+   top: 100px;
+}
+.nav-menu a{
+    text-decoration: none;
+    color: #fff;
+    margin: 10px;
+}
+.nav-right-top{
+    display: flex;
+    gap: 80px;
+    position: absolute;
+    right: 110px;
+    top: 30px;
+    border-bottom: 2px solid rgb(197, 3, 3);
+    padding-bottom: 5px;
+}
+.nav-right-music-icon a{
+    color: #fff;
+    margin: 10px;
+}
+.nav-right-music-play{
+    padding-left: 10px;
+}
+.tune-in-turn-on{
+    margin-top: 20px;
+}
+.tune-in-turn-on h1{
+    font-size: 58px;
+}
+.child-love-ores{
+    display: flex;
+    margin-top: 100px;
+    text-align: left;
+    margin-left: 500px;
+}
+.child-love-ores-all{
+    margin: 20px;
+}
+.child-love-ores-all h4{
+    border-bottom: 2px solid #fff;
+    font-size: 25px;
+}
+.child-love-ores-all p{
+padding-top: 5px;
+}
+.previous-next{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    padding-bottom: 110px;
+}
+.radio-date-shodule{
+    display: flex;
+    width: 100%;
+}
+.radio-date-shodule-right-side{
+    display: flex;
+    position: absolute;
+    right: 100px;
+    gap: 8px;
+    
+}
+.right-side-paragraph{
+    border: 2px solid #fff;
+    padding: 7px;
+}
+.radio-date-shodule-right-icon{
+padding-top: 8px;
+}
+.radio-date-shodule-right-icon a{
+    color: #fff;
+   padding: 5px;
+   border: 2px solid #fff;
+   padding: 7px;
+   
+}
+.radio-date-shodule-right{
+    border: 2px solid #fff;
+}
+.radio-shodule{
+    border-bottom:2px solid #fff ;
+    padding-bottom: 20px;
+}
+.radio-date-shodule-left-side p{
+    font-size: 18px;
+}
+.radio-time-table{
+    display: flex;
+}
+.radio-timeing{
+    margin: 20px;
+    width: 1000px;
+    height: 300px;
+}
+.radio-time{
+    display: flex;
+    gap:15px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-bottom: 2px solid #fff;
+}
+.radio-time h4{
+font-size: 40px;
+color: rgb(214, 214, 214);
+margin-left: 25px;
+}
+.party-name h4{
+font-size: 23px;
+padding-top: 5px;
+color: #fff;
+margin-right: 30px;
+}
+.party-name p{
+    color: rgb(214, 214, 214);
+    padding-left: 25px;
+}
+.latest-events{
+display: flex;
+margin-top: 50px;
+}
+.events-album-image{
+background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(imgs/music.jpg);
+width: 100%;
+height:400px;
+background-repeat: no-repeat;
+
+}
+.latest-events-all{
+    margin: 20px;
+}
+.all-events{
+    width: 430px;
+}
+.all-events-first{
+    display: flex;
+}
+.bottom-boder{
+    border-bottom: 2px solid #fff;
+    padding-bottom: 20px;
+}
+.margin-top{
+    margin-top: 30px;
+}
+.all-events h4{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.all-events-first-icon{
+    background-color: rgb(204, 204, 204);
+    width: 60px;
+    height: 65px;
+    margin-top: 15px;
+}
+.all-events-first-icon:hover{
+background-color: rgb(197, 3, 3);
+}
+.all-events-first-icon a i{
+    font-size: 25px;
+    color: #000;
+    padding-left: 18px;
+    padding-top: 10px;
+}
+.all-events-first-icon:hover p{
+    color: white;
+}
+.all-events-first-icon:hover a i{
+    color: white;
+}
+.all-events-first-icon p{
+    color: #000;
+    padding-left: 17px;
+}
+.all-events-first-cotent{
+    margin-left: 20px;
+}
+.all-events-first-cotent h5{
+    font-size: 16px;
+}
+.all-events-first-cotent p{
+    font-size: 12px;
+    color: aliceblue;
+}
+.all-events-first-cotent-paragraph p{
+    font-size: 15px;
+    padding-top: 5px;
+}
+.events-album-img{
+    width: 500px;
+}
+.carsy-write{
+    font-family: 'Dancing Script', cursive;
+}
+.events-album-img h5{
+    font-size: 18px;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.like-icon-content{
+    margin-top: 20PX;
+    display: flex;
+}
+.like-icon I{
+    font-size: 28PX;
+}
+.like-icon I:hover{
+    color: rgb(197, 3, 3);
+    cursor: pointer;
+}
+.tocked-under{
+    padding-left: 10PX;
+}
+.tocked-under h5{
+    font-size: 22px;
+}
+.tocked-under p{
+    font-size: 13px;
+    color: rgb(197, 3, 3);
+}
+.tocked-all-under{
+    margin-top: 10px;
+}
+.tocked-all-under-list{
+    display: flex;
+    border-bottom:2px solid #fff ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 450px;
+}
+.tocked-all-under-list:hover a{
+color: rgb(197, 3, 3);
+}
+.tocked-all-under-list a{
+font-size: 22px;
+color: #fff;
+text-decoration: none;
+}
+.tocked-all-under-list h6{
+font-size: 20px;
+margin-left: auto;
+}
+.events-album-image-in{
+padding-left: 130px;
+padding-top: 120px; 
+}
+.events-album-image-in h3{
+font-size: 37px;
+font-family: sans-serif;
+}
+.events-album-image-in h1{
+    font-size: 65px;
+    font-family: sans-serif;
+}
+.letest-blog-and-popular-albums{
+    display: flex;
+    margin-top: 40px;
+}
+.letest-blog h6{
+    font-size: 18px;
+    padding-left: 10px;
+}
+.letest-blog-main{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.letest-blog-main-content{
+    padding-top: 10px;
+    padding-left:10px;
+}
+.letest-blog-btn{
+    margin-top: 20px;
+    margin-left:10px;
+}
+.letest-blog-btn a{
+text-decoration: none;
+color: #fff;
+font-size: 18px;
+border: 2px solid #fff;
+padding: 10px;
+}
+.most-popular-albums-all-imgs:hover h5{
+cursor: pointer;
+color: rgb(197, 3, 3);
+}
+.most-popular-albums h6{
+font-size: 18px;
+padding-left: 30px;
+}
+.most-popular-albums-all{
+    display: flex;
+    margin-left: 30px;
+}
+.most-popular-in-img-first{
+    background-image: url(./imgs/first.jpg);
+    width: 220px;
+    height: 200px;
+    background-size: cover;
+    margin-top: 30px;
+}
+.most-popular-in-img-second{
+    background-image: url(./imgs/sec.jpg);
+    width: 220px;
+    height: 200px;
+    background-size: cover;
+    margin-top: 30px;
+}
+.most-popular-in-img-third{
+    background-image: url(./imgs/th.jpg);
+    width: 220px;
+    height: 200px;
+    background-size: cover;
+    margin-top: 30px;
+}
+.most-popular-in-img-forth{
+    background-image: url(./imgs/for.jpg);
+    width: 220px;
+    height: 200px;
+    background-size: cover;
+    margin-top: 30px;
+}
+.most-popular-albums-all-imgs{
+    margin: 20px;
+}
+.most-popular-albums-all-imgs h5{
+    font-size: 18px;
+    padding-top: 20px;
+}
+footer{
+    margin-top: 100px;
+}
+.subscribers{
+    text-align: center;
+}
+.subscribers h2{
+    font-size: 40px;
+}
+.subscribers p{
+    margin-bottom: 20px;
+}
+.input-subscribe{
+    border: 2px solid #fff;
+    width: 350px;
+    margin: auto;
+}
+.input-subscribe input{
+font-size: 18px;
+outline: none;
+background-color: transparent;
+border:none;
+color: #fff;
+}
+.input-subscribe a{
+    font-size: 25px;
+    padding: 0pa 10px;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 50px;
+    padding-left:12px;
+    border-left:2px solid #fff ;
+}
+.input-subscribe a:hover{
+    color: rgb(197, 3, 3);
+}
+.footer-icon{
+    text-align: center;
+    margin-top: 40px;
+}
+.footer-icon a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    margin: 10px;
+}
+.footer-icon i{
+margin-right: 5px;
+}
+.footer-icon a:hover{
+    color: rgb(197, 3, 3);
+}
+.copywrite-privacy{
+    text-align: center;
+    margin-top: 30px;
+}
+.copywrite-privacy a{
+    text-decoration: none;
+    color: #fff;
+}
+.terms-privacy a{
+margin: 15px;
+}
+footer{
+    margin-bottom: 100px;
+}
